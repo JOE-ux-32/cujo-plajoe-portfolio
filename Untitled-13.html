@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cujo Plajoe - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-poppins bg-gray-100 text-gray-800 overflow-x-hidden">
+    <nav class="fixed top-0 w-full bg-white shadow-lg z-50 transition-all duration-300" id scriptures="navbar">
+        <div class="container mx-auto px-4 py-4 flex justify-center space-x-8">
+            <a href="#home" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Accueil
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#about" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">À propos
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#experience" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Expérience
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#formations" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Formations
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#competences" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Compétences
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#atouts" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Atouts
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#contact" class="text-navy-900 font-semibold text-lg hover:text-gold-500 transition duration-300 relative group">Contact
+                <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gold-500 transition-all duration-300 group-hover:w-full"></span>
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative bg-cover bg-center h-screen flex items-center justify-center text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');" id="home">
+        <div class="absolute inset-0 bg-navy-900 opacity-60"></div>
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 animate-bounce-in">Cujo Plajoe</h1>
+            <h2 class="text-2xl md:text-3xl font-light">Recherche d'Alternance en Comptabilité & Gestion</h2>
+            <a href="CV_Alternance_Cujo_PLAJOE.pdf" download class="mt-6 inline-block bg-gold-500 text-navy-900 font-semibold py-3 px-6 rounded-lg hover:bg-gold-600 transition duration-300">Télécharger mon CV</a>
+        </div>
+    </header>
+
+    <section class="py-16 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="about">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">À Propos</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300">
+            <p class="text-lg leading-relaxed">Étudiant en Comptabilité et Gestion à ESG - Finance, je recherche une alternance de 12 mois à partir de septembre 2025 pour mettre en pratique mes compétences en comptabilité, gestion et analyse financière. Rigoureux, organisé et doté d’un esprit analytique, je suis motivé à contribuer efficacement aux opérations comptables de votre entreprise tout en poursuivant mon apprentissage.</p>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="experience">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">Expérience Professionnelle</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300">
+            <h3 class="text-2xl font-semibold text-navy-900 mb-4"><i class="fas fa-briefcase text-gold-500 mr-2"></i> Stagiaire Comptable - Cabinet ACEF, Lomé, Togo (Juin 2023 - Juin 2024)</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Assistance dans la gestion de la paie et des déclarations fiscales.</li>
+                <li>Collaboration avec l’équipe comptable pour optimiser les processus internes.</li>
+            </ul>
+            <h3 class="text-2xl font-semibold text-navy-900 mb-4 mt-6"><i class="fas fa-cash-register text-gold-500 mr-2"></i> Caissier - Oriental Fast-Food, Lomé, Togo (Janvier 2022 - Mars 2023)</h3>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Gestion des transactions en espèces et par carte de crédit.</li>
+                <li>Accueil et assistance aux clients pour répondre à leurs besoins.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-16 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="formations">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">Formations</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-navy-900 mb-4"><i class="fas fa-graduation-cap text-gold-500 mr-2"></i> BTS Comptabilité et Gestion - ESG Finance, Paris (2024-2026)</h3>
+                    <p>Formation en cours, axée sur la comptabilité, la gestion et l’analyse financière.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-navy-900 mb-4"><i class="fas fa-graduation-cap text-gold-500 mr-2"></i> Baccalauréat Enseignement Secondaire - Institut Technique d'Enseignement Commercial, Lomé, Togo (2022-2023)</h3>
+                    <p>Spécialisation en économie et comptabilité.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="competences">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">Compétences</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300">
+            <ul class="space-y-4">
+                <li class="flex items-center bg-gray-100 p-4 rounded-lg hover:bg-gray-200 transition duration-300"><i class="fas fa-laptop-code text-gold-500 mr-4 text-xl"></i> <strong>Logiciels :</strong> Pack office </li>
+                <li class="flex items-center bg-gray-100 p-4 rounded-lg hover:bg-gray-200 transition duration-300"><i class="fas fa-cogs text-gold-500 mr-4 text-xl"></i> <strong>Progiciel :</strong> Progiciel de Gestion Intégré (PGI)</li>
+                <li class="flex items-center bg-gray-100 p-4 rounded-lg hover:bg-gray-200 transition duration-300"><i class="fas fa-language text-gold-500 mr-4 text-xl"></i> <strong>Langues :</strong> Français (courant), Anglais (intermédiaire)</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-16 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="Atouts">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">Mes Atouts</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300">
+            <ul class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <li class="bg-navy-900 text-white p-4 rounded-lg text-center font-medium hover:bg-gold-500 hover:text-navy-900 transition duration-300 cursor-pointer">Organisation </navy-900></li>  
+                <li class="bg-navy-900 text-white p-4 rounded-lg text-center font-medium hover:bg-gold-500 hover:text-navy-900 transition duration-300 cursor-pointer">Cohésion d'équipe </navy-900></li>
+                <li class="bg-navy-900 text-white p-4 rounded-lg text-center font-medium hover:bg-gold-500 hover:text-navy-900 transition duration-300 cursor-pointer">Collaboration/</navy-900><li>
+                <li class="bg-navy-900 text-white p-4 rounded-lg text-center font-medium hover:bg-gold-500 hover:text-navy-900 transition duration-300 cursor-pointer">Gestion du temps/</navy-900><li>
+                <li class="bg-navy-900 text-white p-4 rounded-lg text-center font-medium hover:bg-gold-500 hover:text-navy-900 transition duration-300 cursor-pointer">Adaptabilité/</navy-900><li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50 container mx-auto px-4 opacity-0 translate-y-12 transition-all duration-600" id="contact">
+        <h2 class="text-4xl font-semibold text-navy-900 text-center mb-8 relative after:content-[''] after:absolute after:bottom-[-10px] after:left-1/2 after:-translate-x-1/2 after:w-16 after:h-1 after:bg-gold-500 after:rounded">Contact</h2>
+        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto hover:shadow-2xl transition duration-300 text-center">
+            <p class="text-lg mb-4"><i class="fas fa-envelope text-gold-500 mr-2"></i> plajoecujo@gmail.com</p>
+            <p class="text-lg mb-4"><i class="fas fa-phone text-gold-500 mr-2"></i> 0745042320</p>
+            <p class="text-lg mb-4"><i class="fas fa-map-marker-alt text-gold-500 mr-2"></i> 18 rue de l'ile de France, 91860, Epinay-sous-senart</p>
+            <p class="text-lg"><i class="fab fa-linkedin text-gold-500 mr-2"></i> <a href="www.linkedin.com/in/cujo-plajoe-40b0b4350" target="_blank" class="text-navy-900 hover:text-gold-500 transition duration-300"></a></p>
+        </div>
+    </section>
+
+    <footer class="bg-navy-900 text-white py-6 text-center">
+        <p>&copy; 2025 Cujo Plajoe. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Sticky navbar
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            navbar.classList.toggle('bg-navy-900', window.scrollY > 0);
+            navbar.classList.toggle('text-white', window.scrollY > 0);
+            navbar.querySelectorAll('a').forEach(a => {
+                a.classList.toggle('text-white', window.scrollY > 0);
+                a.classList.toggle('hover:text-gold-500', window.scrollY > 0);
+            });
+        });
+
+        // Section animations on scroll
+        const sections = document.querySelectorAll('section');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                }
+            });
+        }, { threshold: 0.2 });
+
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+
+        // Interactive animation for atouts
+        document.querySelectorAll('.atouts li').forEach(item => {
+            item.addEventListener('click', () => {
+                item.style.transform = 'scale(1.2)';
+                setTimeout(() => {
+                    item.style.transform = 'scale(1)';
+                }, 300);
+            });
+        });
+    </script>
+
+    <style>
+        :root {
+            --navy-900: #1e3a8a;
+            --gold-500: #facc15;
+            --gold-600: #eab308;
+        }
+
+        .animate-bounce-in {
+            animation: bounceIn 1.5s ease;
+        }
+
+        @keyframes bounceIn {
+            0% { opacity: 0; transform: scale(0.3); }
+            50% { opacity: 1; transform: scale(1.05); }
+            70% { transform: scale(0.9); }
+            100% { transform: scale(1); }
+        }
+    </style>
